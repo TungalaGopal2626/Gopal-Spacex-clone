@@ -26,6 +26,11 @@ body {
     width: 15%;
     font-size: 16px;
 }
+.navbar a:hover {
+text-decoration: underline;
+color: white;
+}
+
 
 .navbar-img {
     display: flex;
@@ -88,7 +93,8 @@ body {
     color: white;
     text-align: center;
     text-decoration: none;
-    width: 10%;
+    width: 8%;
+    height: 0.5%;
     border: 1px solid white;
     padding: 2%;
 
@@ -135,7 +141,7 @@ body {
     color: white;
     text-decoration: none;
     text-align: center;
-    width: 10%;
+    width: 7%;
     border: 1px solid white;
     padding: 2%;
 
@@ -181,7 +187,7 @@ body {
     color: white;
     text-align: center;
     text-decoration: none;
-    width: 10%;
+    width: 7%;
     border: 1px solid white;
     padding: 2%;
 }
@@ -227,7 +233,7 @@ body {
     color: white;
     text-align: center;
     text-decoration: none;
-    width: 10%;
+    width: 7%;
     border: 1px solid white;
     padding: 2%;
 }
@@ -262,7 +268,7 @@ body {
     color: white;
     text-align: center;
     text-decoration: none;
-    width: 15%;
+    width: 8%;
     border: 1px solid white;
     padding: 2%;
 
@@ -299,7 +305,7 @@ body {
     color: white;
     text-align: center;
     text-decoration: none;
-    width: 15%;
+    width: 8%;
     border: 1px solid white;
     padding: 2%;
 }
