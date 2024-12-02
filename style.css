@@ -1,0 +1,319 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    padding: 3% 5%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar a {
+    color:white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.navbar .logo {
+    width: 10%;
+}
+
+.navbar .div-1 * {
+    margin-left: 10px;
+    width: 15%;
+    font-size: 16px;
+}
+
+.navbar-img {
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: left;
+    left: 2px;
+    font-size: 20px;
+}
+.navbar-img .shop{
+    font-size: 15px;
+    padding: 13;
+    margin: 10px;
+}
+.navbar-img .fa-bars{
+    font-size: 15px;
+    padding: 13;
+    margin: 10px;
+}
+
+.spacex-images {
+    display: flex;
+    padding-right: 0px;
+    color: white;
+}
+
+.spacex-image-1 {
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Flight_06_Launch_Snchz_Tracking_20241119_DSC_05744_website_H_61b601fd9d.jpg);
+    min-height: 90vh;
+    background-size: cover;
+    color: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    font-size: 30px;
+    justify-content: flex-end;
+    font-family: sans-serif;
+}
+
+.spacex-image-1 .recent-launch {
+    font-size: 19px;
+    color: white;
+    margin-top: 30%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.spacex-image-1 .starship {
+    font-size: 40px;
+    color: white;
+    padding-bottom: 3%;
+}
+
+.spacex-image-1 .rewatch {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 10%;
+    border: 1px solid white;
+    padding: 2%;
+
+}
+
+.spacex-image-1 .rewatch:hover {
+    background-color: white;
+    color: black;
+
+}
+.spacex-image-2{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Launch_Page_Starlink1_vertical_18_DESKTOP_098ae3251b.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    color: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    font-size: 30px;
+    justify-content: flex-end;
+    font-family: sans-serif;
+}
+
+.spacex-image-2 .upcoming-launch{
+    font-size: 19px;
+    color: white;
+    margin-top: 30%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.spacex-image-2 .starlink{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 3%;
+}
+
+.spacex-image-2 .watch{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 10%;
+    border: 1px solid white;
+    padding: 2%;
+
+}
+.spacex-image-2 .watch:hover{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+.spacex-image-3 {
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Starlink_G9_13_Lompoc_Streak_4380_Desktop_4e380e83cf.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    color: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    font-size: 30px;
+    justify-content: flex-end;
+    font-family: sans-serif;
+}
+
+.spacex-image-3 .recent{
+    font-size: 19px;
+    color: white;
+    margin-top: 30%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.spacex-image-3 .starlink-1 {
+    font-size: 40px;
+    color: white;
+    padding-bottom: 3%;
+}
+
+.spacex-image-3 .rewatch-1 {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 10%;
+    border: 1px solid white;
+    padding: 2%;
+}
+
+.spacex-image-3 .rewatch-1:hover {
+    background-color: white;
+    color: black;
+
+}
+.spacex-image-4 {
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Star12_1_112524_DSC_8918_desktop_36eb0bfa85.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    color: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    font-size: 30px;
+    justify-content: flex-end;
+    font-family: sans-serif;
+}
+
+.spacex-image-4 .recent-1{
+    font-size: 19px;
+    color: white;
+    margin-top: 30%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.spacex-image-4 .starlink-2{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 3%;
+}
+
+.spacex-image-4 .rewatch-2{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 10%;
+    border: 1px solid white;
+    padding: 2%;
+}
+
+.spacex-image-4 .rewatch-2:hover{
+    background-color: white;
+    color: black;
+
+}
+.spacex-image-5{
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Eva_Suit_Desktop_alternate_1cf9bae18e.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    color: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    font-size: 30px;
+    justify-content: flex-end;
+    font-family: sans-serif;
+}
+.spacex-image-5 p{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 3%;
+}
+
+.spacex-image-5 .learn-more{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 15%;
+    border: 1px solid white;
+    padding: 2%;
+
+}
+
+.spacex-image-5 .learn-more:hover{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+
+}
+.spacex-image-6 {
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Flight_06_Launch_Snchz_Tracking_20241119_DSC_05744_website_H_61b601fd9d.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    color: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    font-size: 30px;
+    justify-content: flex-end;
+    font-family: sans-serif;
+}
+.spacex-image-6 p{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 3%;
+}
+
+.spacex-image-6 .learn-more-1{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    width: 15%;
+    border: 1px solid white;
+    padding: 2%;
+}
+
+.spacex-image-6 .learn-more-1:hover{
+    background-color: white;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
