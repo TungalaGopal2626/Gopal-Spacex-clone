@@ -39,16 +39,17 @@ color: white;
     text-align: left;
     left: 2px;
     font-size: 20px;
+    
 }
 .navbar-img .shop{
-    font-size: 15px;
-    padding: 13;
-    margin: 10px;
+    font-size: 17px;
+    padding: 10px;
+    
 }
 .navbar-img .fa-bars{
-    font-size: 15px;
-    padding: 13;
-    margin: 10px;
+    font-size: 17px;
+    padding: 10px;
+   
 }
 
 .spacex-images {
@@ -313,13 +314,25 @@ color: white;
 .spacex-image-6 .learn-more-1:hover{
     background-color: white;
     color: black;
+}
+.paragraph{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-size: 13px;
+    padding: 20px;
+    font-family: sans-serif;
 
 }
-
-
-
-
-
-
-
-
+.paragraph p{
+    text-align: center;
+    padding: 10px;
+}
+.paragraph a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
