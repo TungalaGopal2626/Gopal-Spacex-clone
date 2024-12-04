@@ -6,14 +6,13 @@ body {
     display: flex;
     padding: 3% 5%;
     max-width: 100%;
-    /* align-items: center; */
-    /* justify-content: space-evenly; */
+
 }
 
-.navbar a {
+.navbar a{
     color: white;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 10px;
     font-weight: bold;
     font-family: sans-serif;
 }
@@ -25,7 +24,7 @@ body {
 .navbar .div-1 * {
     margin-left: 10px;
     width: 15%;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .navbar a:hover {
@@ -40,18 +39,16 @@ body {
     margin-right: 5px;
     text-align: left;
     left: 2px;
-    font-size: 20px;
-
 }
 
 .navbar-img .shop {
-    font-size: 17px;
+    font-size: 13px;
     padding: 10px;
 
 }
 
 .navbar-img .fa-bars {
-    font-size: 17px;
+    font-size: 13px;
     padding: 10px;
 
 }
@@ -111,7 +108,7 @@ body {
 }
 
 .spacex-image-2 {
-    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Launch_Page_Starlink1_vertical_18_DESKTOP_098ae3251b.jpg);
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Starlink_6_70_Streak_DESKTOP_ee2716fce2.jpg);
     min-height: 100vh;
     background-size: cover;
     color: none;
@@ -159,7 +156,7 @@ body {
 }
 
 .spacex-image-3 {
-    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Starlink_G9_13_Lompoc_Streak_4380_Desktop_4e380e83cf.jpg);
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Starlink_6_65_Streak_DESKTOP_1_fda427081c.jpg);
     min-height: 100vh;
     background-size: cover;
     color: none;
