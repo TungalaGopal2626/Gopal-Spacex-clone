@@ -5,12 +5,13 @@ body {
 .navbar {
     display: flex;
     padding: 3% 5%;
-    align-items: center;
-    justify-content: space-evenly;
+    max-width: 100%;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
 }
 
 .navbar a {
-    color:white;
+    color: white;
     text-decoration: none;
     font-size: 13px;
     font-weight: bold;
@@ -18,7 +19,7 @@ body {
 }
 
 .navbar .logo {
-    width: 10%;
+    width: 5%;
 }
 
 .navbar .div-1 * {
@@ -26,9 +27,10 @@ body {
     width: 15%;
     font-size: 16px;
 }
+
 .navbar a:hover {
-text-decoration: underline;
-color: white;
+    text-decoration: underline;
+    color: white;
 }
 
 
@@ -39,17 +41,19 @@ color: white;
     text-align: left;
     left: 2px;
     font-size: 20px;
-    
+
 }
-.navbar-img .shop{
+
+.navbar-img .shop {
     font-size: 17px;
     padding: 10px;
-    
+
 }
-.navbar-img .fa-bars{
+
+.navbar-img .fa-bars {
     font-size: 17px;
     padding: 10px;
-   
+
 }
 
 .spacex-images {
@@ -60,7 +64,7 @@ color: white;
 
 .spacex-image-1 {
     background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Flight_06_Launch_Snchz_Tracking_20241119_DSC_05744_website_H_61b601fd9d.jpg);
-    min-height: 90vh;
+    min-height: 100vh;
     background-size: cover;
     color: none;
     font-weight: bold;
@@ -95,9 +99,8 @@ color: white;
     text-align: center;
     text-decoration: none;
     width: 8%;
-    height: 0.5%;
     border: 1px solid white;
-    padding: 2%;
+    padding: 1%;
 
 }
 
@@ -106,7 +109,8 @@ color: white;
     color: black;
 
 }
-.spacex-image-2{
+
+.spacex-image-2 {
     background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Launch_Page_Starlink1_vertical_18_DESKTOP_098ae3251b.jpg);
     min-height: 100vh;
     background-size: cover;
@@ -121,7 +125,7 @@ color: white;
     font-family: sans-serif;
 }
 
-.spacex-image-2 .upcoming-launch{
+.spacex-image-2 .upcoming-launch {
     font-size: 19px;
     color: white;
     margin-top: 30%;
@@ -131,27 +135,29 @@ color: white;
     font-style: normal;
 }
 
-.spacex-image-2 .starlink{
+.spacex-image-2 .starlink {
     font-size: 40px;
     color: white;
     padding-bottom: 3%;
 }
 
-.spacex-image-2 .watch{
+.spacex-image-2 .watch {
     font-size: 15px;
     color: white;
     text-decoration: none;
     text-align: center;
     width: 7%;
     border: 1px solid white;
-    padding: 2%;
+    padding: 1%;
 
 }
-.spacex-image-2 .watch:hover{
+
+.spacex-image-2 .watch:hover {
     border: 1px solid white;
     background-color: white;
     color: black;
 }
+
 .spacex-image-3 {
     background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Starlink_G9_13_Lompoc_Streak_4380_Desktop_4e380e83cf.jpg);
     min-height: 100vh;
@@ -167,7 +173,7 @@ color: white;
     font-family: sans-serif;
 }
 
-.spacex-image-3 .recent{
+.spacex-image-3 .recent {
     font-size: 19px;
     color: white;
     margin-top: 30%;
@@ -190,7 +196,7 @@ color: white;
     text-decoration: none;
     width: 7%;
     border: 1px solid white;
-    padding: 2%;
+    padding: 1%;
 }
 
 .spacex-image-3 .rewatch-1:hover {
@@ -198,6 +204,7 @@ color: white;
     color: black;
 
 }
+
 .spacex-image-4 {
     background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Star12_1_112524_DSC_8918_desktop_36eb0bfa85.jpg);
     min-height: 100vh;
@@ -213,7 +220,7 @@ color: white;
     font-family: sans-serif;
 }
 
-.spacex-image-4 .recent-1{
+.spacex-image-4 .recent-1 {
     font-size: 19px;
     color: white;
     margin-top: 30%;
@@ -223,28 +230,29 @@ color: white;
     font-style: normal;
 }
 
-.spacex-image-4 .starlink-2{
+.spacex-image-4 .starlink-2 {
     font-size: 40px;
     color: white;
     padding-bottom: 3%;
 }
 
-.spacex-image-4 .rewatch-2{
+.spacex-image-4 .rewatch-2 {
     font-size: 15px;
     color: white;
     text-align: center;
     text-decoration: none;
     width: 7%;
     border: 1px solid white;
-    padding: 2%;
+    padding: 1%;
 }
 
-.spacex-image-4 .rewatch-2:hover{
+.spacex-image-4 .rewatch-2:hover {
     background-color: white;
     color: black;
 
 }
-.spacex-image-5{
+
+.spacex-image-5 {
     background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Eva_Suit_Desktop_alternate_1cf9bae18e.jpg);
     min-height: 100vh;
     background-size: cover;
@@ -258,31 +266,33 @@ color: white;
     justify-content: flex-end;
     font-family: sans-serif;
 }
-.spacex-image-5 p{
+
+.spacex-image-5 p {
     font-size: 40px;
     color: white;
     padding-bottom: 3%;
 }
 
-.spacex-image-5 .learn-more{
+.spacex-image-5 .learn-more {
     font-size: 15px;
     color: white;
     text-align: center;
     text-decoration: none;
     width: 8%;
     border: 1px solid white;
-    padding: 2%;
+    padding: 1%;
 
 }
 
-.spacex-image-5 .learn-more:hover{
+.spacex-image-5 .learn-more:hover {
     border: 1px solid white;
     background-color: white;
     color: black;
 
 }
+
 .spacex-image-6 {
-    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Flight_06_Launch_Snchz_Tracking_20241119_DSC_05744_website_H_61b601fd9d.jpg);
+    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/Homepage_Starlink_SLC_40_Desktop_5b1e6b5dd0.jpg);
     min-height: 100vh;
     background-size: cover;
     color: none;
@@ -295,43 +305,46 @@ color: white;
     justify-content: flex-end;
     font-family: sans-serif;
 }
-.spacex-image-6 p{
+
+.spacex-image-6 p {
     font-size: 40px;
     color: white;
     padding-bottom: 3%;
 }
 
-.spacex-image-6 .learn-more-1{
+.spacex-image-6 .learn-more-1 {
     font-size: 15px;
     color: white;
     text-align: center;
     text-decoration: none;
     width: 8%;
     border: 1px solid white;
-    padding: 2%;
+    padding: 1%;
 }
 
-.spacex-image-6 .learn-more-1:hover{
+.spacex-image-6 .learn-more-1:hover {
     background-color: white;
     color: black;
 }
-.paragraph{
+
+.paragraph {
     display: flex;
-    justify-content: space-evenly;
-    color: white;
     text-align: center;
+    justify-content: center;
+    color: white;
+   
     background-color: black;
     font-size: 13px;
     padding: 20px;
     font-family: sans-serif;
 
 }
-.paragraph p{
-    text-align: center;
+
+.paragraph p {
     padding: 10px;
 }
-.paragraph a{
-    text-align: center;
+
+.paragraph a {
     text-decoration: none;
     color: white;
     padding: 20px;
